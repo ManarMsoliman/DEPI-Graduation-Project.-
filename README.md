@@ -2,19 +2,19 @@
 ## Selenium Test Automation Project
 This project automates the process of navigating to the OrangeHRM web application, logging in with valid credentials, performing administrative tasks such as creating and deleting users, navigating the recruitment menu, and managing leave entitlements. The scripts are written in Java using Selenium WebDriver and TestNG framework.
 
-##Project Structure
+## Project Structure
 src/main/java/org/example: Contains the main classes for the project, including LoginPage, DashBoard, AdminPage, RecruitmentPage, and LeavePage.
 
 src/test/java/org/example/Test.java: The test class containing the test methods for validating the various functionalities of the OrangeHRM application.
 
-##Prerequisites
+## Prerequisites
 Java Development Kit (JDK-17)
 
 Maven: Used for managing project dependencies.
 
 ChromeDriver: Required for running tests on the Chrome browser.
 
-##Test Scenarios
+## Test Scenarios
 1.Login with Valid Credentials
 
 Description: Verifies that a user can log in with valid credentials.
